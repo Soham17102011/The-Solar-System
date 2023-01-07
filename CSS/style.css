@@ -1,0 +1,180 @@
+    .heading {
+        background-color: blue;
+        color: white;
+        margin: 0px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #solarsystem {
+        height: 700px;
+        width: 250px;
+    }
+    
+    .button-group button {
+        background-color: aqua;
+        border: 2px solid black;
+        color: black;
+        padding: 12px;
+        cursor: pointer;
+        width: 10%;
+        display: block;
+        font-size: 15px;
+    }
+    
+    .button-group button:hover {
+        background-color: orange;
+    }
+    
+    #pluto {
+        position: absolute;
+        top: 80px;
+        left: 510px;
+    }
+    
+    #neptune {
+        position: absolute;
+        top: 137px;
+        left: 510px;
+    }
+    
+    #uranus {
+        position: absolute;
+        top: 270px;
+        left: 510px;
+    }
+    
+    #saturn {
+        position: absolute;
+        top: 465px;
+        left: 510px;
+    }
+    
+    #jupiter {
+        position: absolute;
+        top: 710px;
+        left: 510px;
+    }
+    
+    #mars {
+        position: absolute;
+        top: 885px;
+        left: 510px;
+    }
+    
+    #earth {
+        position: absolute;
+        top: 970px;
+        left: 510px;
+    }
+    
+    #venus {
+        position: absolute;
+        top: 1070px;
+        left: 510px;
+    }
+    
+    #mercury {
+        position: absolute;
+        top: 1170px;
+        left: 510px;
+    }
+    
+    #sun {
+        position: absolute;
+        top: 1400px;
+        left: 510px;
+    }
+    
+    body {
+        background-size: cover;
+    }
+    
+    #pluto_img {
+        height: 70px;
+        width: 140px;
+        position: absolute;
+        left: 200px;
+        top: 60px;
+    }
+    
+    #neptune_img {
+        height: 100px;
+        width: 180px;
+        position: absolute;
+        left: 180px;
+        top: 120px;
+    }
+    
+    #uranus_img {
+        height: 140px;
+        width: 200px;
+        position: absolute;
+        left: 160px;
+        top: 240px;
+    }
+    
+    #saturn_img {
+        height: 350px;
+        width: 450px;
+        position: absolute;
+        left: 40px;
+        top: 300px;
+    }
+    
+    #jupiter_img {
+        height: 260px;
+        width: 300px;
+        position: absolute;
+        left: 100px;
+        top: 600px;
+    }
+    
+    #mars_img {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        left: 210px;
+        top: 890px;
+    }
+    
+    #earth_img {
+        height: 70px;
+        width: 70px;
+        position: absolute;
+        left: 200px;
+        top: 970px;
+    }
+    
+    #venus_img {
+        height: 100px;
+        width: 150px;
+        position: absolute;
+        left: 160px;
+        top: 1070px;
+    }
+    
+    #mercury_img {
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        left: 205px;
+        top: 1170px;
+    }
+    
+    #sun_img {
+        height: 1500px;
+        width: 1300px;
+        position: absolute;
+        left: -370px;
+        top: 850px;
+    }
+    
+    #info {
+        position: absolute;
+        top: 137px;
+        left: 1000px;
+        font-size: 35px;
+        border: 5px solid grey;
+    }
